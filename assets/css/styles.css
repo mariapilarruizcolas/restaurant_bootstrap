@@ -105,3 +105,18 @@
 .nav-link {
 	color: black;
 }
+ @media screen and (max-width: 621px) {
+
+    /* petit ecran */
+     .img {
+        width: 95%;
+		justify-content: center;
+    }
+
+    .card-text {
+        display: none;
+    }
+	.autres-box{
+		display:none;
+	}
+}
